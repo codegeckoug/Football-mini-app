@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1>Weekend Football Matches</h1>
+
+      <!-- Spanish League Section -->
+      <section class="league-section">
+        <div class="spanish-league-section">
+          <img src="img/laliga.jpg" />
+          <h2>🇪🇸 Spanish League</h2>
+          <button class="showMatches" data-league="spanish">
+            Show Saturday Matches
+          </button>
+          <div class="matches-container" id="spanish-matches"></div>
+        </div>
+      </section>
+
+      <!-- Premier League Section -->
+      <section class="league-section">
+        <img src="/img/premier-league.png" />
+        <h2>🏴 Premier League</h2>
+        <button class="showMatches" data-league="premier">
+          Show Sunday Matches
+        </button>
+        <div class="matches-container" id="premier-matches"></div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
